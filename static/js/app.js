@@ -145,19 +145,8 @@ function region(ndx) {
   var minDate = new Date(dim.bottom(1)[0].Year).getFullYear();
   console.log(minDate);
 
-  var width = $(window).width();
-
-  if (width < 600) {
-    width = $(window).width();
-  } else {
-    width = $(window).width() / 2;
-  }
-  console.log(width);
-
-  console.log(composite);
-
   composite
-    .width(width)
+    .width(650)
     .height(480)
     .x(d3.scale.linear().domain([minDate, maxDate]))
 
