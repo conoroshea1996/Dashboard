@@ -12,11 +12,12 @@
   color: white;
   display: flex;
   align-items: center;
+  text-align: center;
   height: 50px;
   margin-bottom: 30px;
 }
 .nav h3 {
-  margin: auto;
+  width: 100%;
   text-transform: uppercase;
 }
 .reset {
@@ -148,7 +149,7 @@
   justify-content: center;
   align-items: center;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
   .top-dashbaord {
     grid-template-columns: 1fr;
     height: 100%;
@@ -162,4 +163,25 @@
 #salesSpan .x.axis text {
   text-anchor: end !important;
   transform: rotate(-45deg);
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* aspect ratio */
+  vertical-align: top;
+  overflow: hidden;
+}
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+svg .rect {
+  fill: gold;
+  stroke: steelblue;
+  stroke-width: 5px;
 }

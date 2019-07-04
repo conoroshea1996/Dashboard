@@ -14,6 +14,13 @@ function chart(error, data) {
   region(ndx);
   dc.renderAll();
 }
+/// Graph Width in realtion to screen size
+var width;
+$(window).on("load", function() {
+  width = $(window).width();
+  console.log(width);
+});
+
 // platform Pie-chart
 function platform(ndx) {
   var dim = ndx.dimension(dc.pluck("Platform"));
@@ -37,7 +44,7 @@ function genre(ndx) {
 
   var group = dim.group();
   dc.barChart("#genre")
-    .width(650)
+    .width(600)
     .dimension(dim)
     .group(group)
     .x(d3.scale.ordinal())
@@ -55,9 +62,6 @@ function YearSale(ndx) {
   var group = dim.group().reduceSum(function(d) {
     return Math.floor(d.Global_Sales);
   });
-
-  var width = $(window).width();
-  console.log(width);
 
   var chart = dc.lineChart("#salesSpan");
   chart
@@ -195,29 +199,7 @@ resetButton.addEventListener("click", function() {
   dc.redrawAll();
 });
 
-//Dark Mode Toggle
-$("#darkMode").click(function() {
-  var xAxisTicks = $(".x.axis line");
-  var yAxisTicks = $(".y.axis line");
-  var xAxisText = $(".x.axis text");
-  var yAxisText = $(".y.axis text");
-  var rowxAxisText = $("g text");
-
-  $("body").toggleClass("darkmode-class");
-  xAxisText.toggleClass("darkmode-text ");
-  yAxisText.toggleClass("darkmode-text ");
-  xAxisTicks.toggleClass("darkmode-ticks");
-  yAxisTicks.toggleClass("darkmode-ticks");
-  rowxAxisText.toggleClass("darkmode-ticks");
-});
-
 // start intro.js
 $("#tour").click(function() {
   javascript: introJs().start();
-});
-
-// window width
-var width;
-$(window).resize(function() {
-  width = $(window).width();
 });
