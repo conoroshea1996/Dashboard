@@ -3,14 +3,12 @@
   padding: 0;
   margin: 0;
 }
-.darkmode-class {
-  background: rgb(50, 50, 51);
-  color: white;
-}
+
 .nav {
   background: rgb(67, 179, 216);
   color: white;
   display: flex;
+  position: relative;
   align-items: center;
   text-align: center;
   height: 50px;
@@ -49,32 +47,22 @@
   text-align: center;
 }
 .tour-btn {
-  margin-left: 50px;
   border: white 1px solid;
   border-radius: 5px;
   background: rgb(105, 200, 231);
   color: white;
   transition: all 0.5s ease-in-out;
   text-transform: uppercase;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  transform: translate(-50%);
 }
 .tour-btn:hover {
   background: rgb(74, 193, 233);
-  transform: scale(1.01);
+  transform: scale(1.01), translate(-50%);
 }
 
-.darkMode-btn {
-  margin-right: 50px;
-  background: lightgray;
-  border: white 1px solid;
-  border-radius: 5px;
-  outline: none;
-  transition: all 0.5s ease-in-out;
-  text-transform: uppercase;
-}
-.darkMode-btn:hover {
-  background: darkgray;
-  transform: scale(1.01);
-}
 .platform-container {
   display: flex;
   justify-content: center;
@@ -163,25 +151,4 @@
 #salesSpan .x.axis text {
   text-anchor: end !important;
   transform: rotate(-45deg);
-}
-
-.svg-container {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%; /* aspect ratio */
-  vertical-align: top;
-  overflow: hidden;
-}
-.svg-content-responsive {
-  display: inline-block;
-  position: absolute;
-  top: 10px;
-  left: 0;
-}
-
-svg .rect {
-  fill: gold;
-  stroke: steelblue;
-  stroke-width: 5px;
 }
