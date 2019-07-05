@@ -12,10 +12,8 @@ The data set used for this project was taken from kaggle .A link to which can be
 
 For User Interface experience I kept my design simple and stuck to what I origanly wanted to do
 
-#### Desktop layout
+#### WireFrames
 
-![wireframes](./Dashboard-Wireframes/Desktop1.png)
-
-#### Ipad layout
-
-![Wireframe-Ipad](./Dashboard-Wireframes/Ipad1.png)
+|                Desktop                 |                Ipad                 |
+| :------------------------------------: | :---------------------------------: |
+| ![](Dashboard-Wireframes/Desktop1.png) | ![](Dashboard-Wireframes/Ipad1.png) |
