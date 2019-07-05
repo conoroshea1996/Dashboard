@@ -14,8 +14,8 @@ For User Interface experience I kept my design simple and stuck to what I origan
 
 #### Desktop layout
 
-![wireframes](./Dashboard-Wireframes/Desktop.png)
+![wireframes](./Dashboard-Wireframes/Desktop1.png)
 
 #### Ipad layout
 
-![Wireframe-Ipad](./Dashboard-Wireframes/Ipad.png)
+![Wireframe-Ipad](./Dashboard-Wireframes/Ipad1.png)
