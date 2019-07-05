@@ -146,3 +146,13 @@
   text-anchor: end !important;
   transform: rotate(-45deg);
 }
+#genre {
+  width: 100% !important;
+}
+#region {
+  width: 100% !important;
+}
+#publisher {
+  width: 100% !important;
+  height: 90%;
+}
