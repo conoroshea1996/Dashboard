@@ -44,7 +44,7 @@ function genre(ndx) {
 
   var group = dim.group();
   dc.barChart("#genre")
-    .width(500)
+    .width(600)
     .dimension(dim)
     .group(group)
     .x(d3.scale.ordinal())
@@ -89,8 +89,8 @@ function Publisher(ndx) {
   var top = getTops(group);
 
   dc.rowChart("#publisher")
-    .width(300)
-    .height(300)
+    .width(400)
+    .height(400)
     .dimension(dim)
     .group(top)
     .colors(d3.scale.category10());
@@ -146,7 +146,7 @@ function region(ndx) {
   console.log(minDate);
 
   composite
-    .width(650)
+    .width(600)
     .height(480)
     .x(d3.scale.linear().domain([minDate, maxDate]))
 
