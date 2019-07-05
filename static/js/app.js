@@ -44,7 +44,7 @@ function genre(ndx) {
 
   var group = dim.group();
   dc.barChart("#genre")
-    .width(600)
+    .width(500)
     .dimension(dim)
     .group(group)
     .x(d3.scale.ordinal())
