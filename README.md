@@ -60,7 +60,7 @@ For User Interface experience I kept my design simple and stuck with what I orig
 
 ### Responsiveness
 
-I've tested the responsiveness of my project using Chrome developer tools. I did this by right clicking on my webpage when in chrome and clicking inspect. I tested both the full width and Ipad. As these where my main targets. I found on smaller screen sizes such as the Iphone5 although the charts where scaling the text under each chart became unreadable.
+I've tested the responsiveness of my project using Chrome developer tools. I did this by right clicking on my webpage when in chrome and clicking inspect. I tested both the full width of my Monitor and on Ipad. ALso I noticed when I selected the Ipad that everything looked huge but once I zoomed out everything looked okay. I found on smaller screen sizes such as the Iphone5 although the charts where scaling the text under each chart became unreadable.
 
 ### Physical
 
@@ -91,3 +91,8 @@ These are the following steps I took to deploy my site
 - All future commits to the master branch will automatically update the live link to the site
 
 - It's also worth noting that the site must have an index.html file. In order for github to deploy the site correctly
+
+## Content
+
+The data set was taken from Kaggle and can be viewed.
+[here](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings)
