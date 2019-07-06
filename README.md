@@ -42,14 +42,30 @@ For User Interface experience I kept my design simple and stuck with what I orig
 
 ## Technologies Used
 
-- HTML5
-- CSS3 / CSS Grid
-- Javascript / Jquery
-- D3.js
+- #### HTML5
+- #### CSS3 / CSS Grid
+- #### Javascript / Jquery
+- #### D3.js
   D3 is a JavaScript library for visualizing data with HTML, SVG, and CSS.
-- Dc.js
+- #### Dc.js
   Dc is a javascript charting library with native crossfilter support, allowing highly efficient exploration on large multi-dimensional datasets (inspired by crossfilter's demo). It leverages d3 to render charts in CSS-friendly SVG format. Charts rendered using dc.js are data driven and reactive and therefore provide instant feedback to user interaction.
-- Crossfilter
+- #### Crossfilter
   Crossfilter is a JavaScript library for exploring large multivariate datasets in the browser.
+- #### Figma
+  Was used to produce wire frames
+- #### Kaggle
+  I used kaggle to get my datasets
 
 ## Testing
+
+### Responsiveness
+
+I've tested the responsiveness of my project using Chrome developer tools. I did this by right clicking on my webpage when in chrome and clicking inspect. I tested both the full width and Ipad. As these where my main targets. I found on smaller screen sizes such as the Iphone5 although the charts where scaling the text under each chart became unreadable.
+
+### Physical
+
+For the physical hardware, the project was tested on a asus 22 inch 1080p monitor, a 2011 macbook pro and a Dell 15.6 inch 1080p laptop. All of which looked as I expected.
+
+### Data Testing
+
+Throught out the making of this project I performed manual testing on each chart.Ensuring that the data was filtering correctly. Its also worth noting that console logged each piece of data to ensure that everything was working correctly. As a result all charts are fully interactive and filtering data correctly.
