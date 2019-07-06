@@ -40,4 +40,16 @@ For User Interface experience I kept my design simple and stuck with what I orig
 - ### Dark Mode
   A dark mode which will allow the user to toggle from a light background to a darker background to make it more acessible for all users
 
+## Technologies Used
+
+- HTML5
+- CSS3 / CSS Grid
+- Javascript / Jquery
+- D3.js
+  D3 is a JavaScript library for visualizing data with HTML, SVG, and CSS.
+- Dc.js
+  Dc is a javascript charting library with native crossfilter support, allowing highly efficient exploration on large multi-dimensional datasets (inspired by crossfilter's demo). It leverages d3 to render charts in CSS-friendly SVG format. Charts rendered using dc.js are data driven and reactive and therefore provide instant feedback to user interaction.
+- Crossfilter
+  Crossfilter is a JavaScript library for exploring large multivariate datasets in the browser.
+
 ## Testing
