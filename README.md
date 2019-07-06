@@ -36,7 +36,9 @@ For User Interface experience I kept my design simple and stuck with what I orig
 ## Features left to implment
 
 - ### Drop Down Navbar
-  A drop navbar which will allow the user toggle whats being diplayed on the screen when to click on a given item
+
+  A drop navbar which will allow the user to navigate through diffrent areas in the dashboard.
+
 - ### Dark Mode
   A dark mode which will allow the user to toggle from a light background to a darker background to make it more acessible for all users
 
@@ -46,9 +48,17 @@ For User Interface experience I kept my design simple and stuck with what I orig
 - #### CSS3 / CSS Grid
 - #### Javascript / Jquery
 - #### D3.js
+
   D3 is a JavaScript library for visualizing data with HTML, SVG, and CSS.
+
+  [Learn More About D3 Here](https://d3js.org/)
+
 - #### Dc.js
+
   Dc is a javascript charting library with native crossfilter support, allowing highly efficient exploration on large multi-dimensional datasets (inspired by crossfilter's demo). It leverages d3 to render charts in CSS-friendly SVG format. Charts rendered using dc.js are data driven and reactive and therefore provide instant feedback to user interaction.
+
+[Read More On DC.js Here](https://dc-js.github.io/dc.js/)
+
 - #### Crossfilter
   Crossfilter is a JavaScript library for exploring large multivariate datasets in the browser.
 - #### Figma
