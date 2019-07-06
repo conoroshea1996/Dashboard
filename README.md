@@ -69,3 +69,25 @@ For the physical hardware, the project was tested on a asus 22 inch 1080p monito
 ### Data Testing
 
 Throught out the making of this project I performed manual testing on each chart.Ensuring that the data was filtering correctly. Its also worth noting that console logged each piece of data to ensure that everything was working correctly. As a result all charts are fully interactive and filtering data correctly.
+
+## Deployment
+
+I have used GitHub Pages to deploy my site from the master branch.
+
+[Link To Site](https://conoroshea1996.github.io/Dashboard/)
+
+These are the following steps I took to deploy my site
+
+- I selected the Dshboard Project from my list of repositories.
+
+- Then I went to the settings tab in my github repository.
+
+- I then scrolled down to Github Pages section.
+
+- I clicked where it says source none and change this to the master branch
+
+- After a couple of mintues there is then a live link to this project.
+
+- All future commits to the master branch will automatically update the live link to the site
+
+- It's also worth noting that the site must have an index.html file. In order for github to deploy the site correctly
