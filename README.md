@@ -5,7 +5,7 @@ popular and which gaming platform is most in demand plus much more.
 
 ## Data Set
 
-The data set used for this project was taken from kaggle .A link to which can be found below.
+The data set used for this project was taken from kaggle It includes data such as Global Sale, Platform , years and some more.A link to which can be found below.
 [Data-Set](https://www.kaggle.com/gregorut/videogamesales)
 
 ## Ux
@@ -95,4 +95,4 @@ These are the following steps I took to deploy my site
 ## Content
 
 The data set was taken from Kaggle and can be viewed.
-[here](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings)
+[here](https://www.kaggle.com/gregorut/videogamesales)
