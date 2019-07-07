@@ -3,6 +3,9 @@
   padding: 0;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .nav {
   background: rgb(67, 179, 216);
@@ -131,6 +134,18 @@
   justify-content: center;
   align-items: center;
 }
+footer h2 a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: all 05s ease;
+}
+
+footer h2 a:hover {
+  text-decoration: none;
+  color: rgb(8, 77, 100);
+}
+
 @media only screen and (max-width: 800px) {
   .top-dashbaord {
     grid-template-columns: 1fr;
