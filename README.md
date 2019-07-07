@@ -1,7 +1,7 @@
 # Game Sales Dashboard
 
 This dashboard provides information on games sales. It gives us some insite into which generes are most
-popular and which gaming platform is most in demand plus much more.
+popular and which gaming platform is most in demand plus much more. This gives us a much more interactive way of taking in our data and allows the user to consume lots of information in a visual manner.
 
 ## Data Set
 
@@ -31,7 +31,12 @@ For User Interface experience I kept my design simple and stuck with what I orig
   A display box which shows the user the total value and the total amount of records currently being displayed with the current filter
 
 - ### Tutorial Button
+
   A simple button which allows the user to take a quick tour through the dashboard giving them simple tool tips of each item.
+
+- ### Back To The Top Button
+
+A simple button at the bottom which allows the user to navigate back to the top of the dashbord
 
 ## Features left to implment
 
