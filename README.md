@@ -80,6 +80,14 @@ For the physical hardware, the project was tested on a asus 22 inch 1080p monito
 
 Throught out the making of this project I performed manual testing on each chart.Ensuring that the data was filtering correctly. Its also worth noting that console logged each piece of data to ensure that everything was working correctly. As a result all charts are fully interactive and filtering data correctly.
 
+#### Testing Procuder
+
+- Before I generated each chart I made sure to log each dataset for the given chart to the console.
+
+- This allowed me to ensure that the corrrect data was being produced for each and every chart.
+
+- I extensivly tested each chart by clicking on it to make sure that it was indeed filtering the data correctly.
+
 ## Deployment
 
 I have used GitHub Pages to deploy my site from the master branch.
