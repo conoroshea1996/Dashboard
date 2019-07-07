@@ -1,7 +1,7 @@
 # Game Sales Dashboard
 
 This dashboard provides information on games sales. It gives us some insite into which generes are most
-popular and which gaming platform is most in demand plus much more. This gives us a much more interactive way of taking in our data and allows the user to consume lots of information in a visual manner.
+popular and which gaming platform is most in demand plus much more. This gives us a much more interactive way of taking in the given data and allows the user to consume lots of information in a visual manner.
 
 ## Data Set
 
@@ -9,6 +9,15 @@ The data set used for this project was taken from kaggle It includes data such a
 [Data-Set](https://www.kaggle.com/gregorut/videogamesales)
 
 ## Ux
+
+Games Sale Dashboard was built for both gamers and managers alike. It allows those who are interested in gaming to see whats the best platrom to be on for a particular genre they are interested in. It provides the data in such a way that you dont need to be a data scientist to understand it. Its also great for project managers as although the data I have used may not be the most realistic it does showcase the power of d3.js, dc.js and crossfilter. To create a powerful dashboard with a given dataset.
+
+### User Stories
+
+- As a gamer this allows me to see all of the realivent data of interest to me .
+- Such as rthe abilty to see whats the most popular platform right now.
+- The abilty to see which platform is right for you based on which type or genre of game you like.
+- This dashbaord also demonstrates to managers how good d3 ,dc and crossfilter can be to display sales analytics.
 
 ## Ui
 
